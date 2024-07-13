@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020B009E2BE4BC2300B8D87D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B009D2BE4BC2300B8D87D /* MainView.swift */; };
+		020B00A02BE4BC3A00B8D87D /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B009F2BE4BC3A00B8D87D /* MainViewModel.swift */; };
+		020B00A32BE4BCC900B8D87D /* PrayerTimeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B00A22BE4BCC900B8D87D /* PrayerTimeTabView.swift */; };
+		020B00A62BE4BD2E00B8D87D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B00A52BE4BD2E00B8D87D /* HomeView.swift */; };
+		020B00A92BE4BD5B00B8D87D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B00A82BE4BD5B00B8D87D /* SettingsView.swift */; };
+		020B00AC2BE4BDA300B8D87D /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B00AB2BE4BDA300B8D87D /* SelectView.swift */; };
+		020B00AF2BE4BDEC00B8D87D /* TimeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B00AE2BE4BDEC00B8D87D /* TimeTableView.swift */; };
+		020B00B22BE4BE0B00B8D87D /* ZikirmatikView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B00B12BE4BE0B00B8D87D /* ZikirmatikView.swift */; };
+		0246EF782BE8B353002E0AF4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0246EF772BE8B353002E0AF4 /* NetworkManager.swift */; };
+		0246EF7C2BE8B40C002E0AF4 /* RemoteClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0246EF7B2BE8B40C002E0AF4 /* RemoteClass.swift */; };
+		0246EF802BE8ECE1002E0AF4 /* NotificationControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0246EF7F2BE8ECE1002E0AF4 /* NotificationControlView.swift */; };
+		025BA8772BFC7F780078C017 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BA8762BFC7F780078C017 /* HTTPClient.swift */; };
+		025BA8792BFC7FC30078C017 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BA8782BFC7FC30078C017 /* Endpoint.swift */; };
+		025BA87B2BFC7FDA0078C017 /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BA87A2BFC7FDA0078C017 /* RequestMethod.swift */; };
+		025BA87D2BFC7FF10078C017 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BA87C2BFC7FF10078C017 /* RequestError.swift */; };
+		025BA87F2BFC80A20078C017 /* SelectListEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BA87E2BFC80A20078C017 /* SelectListEndPoint.swift */; };
+		025BA8832BFC86BF0078C017 /* TimeTableEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BA8822BFC86BF0078C017 /* TimeTableEndPoint.swift */; };
+		025BA8852BFC90400078C017 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BA8842BFC90400078C017 /* ResponseModel.swift */; };
+		0272DEB72BEA267D0055421C /* SelectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DEB62BEA267D0055421C /* SelectListView.swift */; };
+		0272DEBA2BEA2E4C0055421C /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DEB92BEA2E4C0055421C /* View+Extension.swift */; };
+		0272DEBD2BEA2EB10055421C /* SearchTF+Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DEBC2BEA2EB10055421C /* SearchTF+Modifier.swift */; };
+		0272DEC32BEB73210055421C /* SelectZikirView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DEC22BEB73210055421C /* SelectZikirView.swift */; };
+		0272DEC52BEB73510055421C /* SavedZikirView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DEC42BEB73510055421C /* SavedZikirView.swift */; };
+		0272DEC72BEB735D0055421C /* CreateZikirView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DEC62BEB735C0055421C /* CreateZikirView.swift */; };
+		0272DECB2BEB8AB00055421C /* SelectZikirDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DECA2BEB8AB00055421C /* SelectZikirDetailView.swift */; };
+		02C6DEF82BF7366E00DA55F5 /* ApplyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C6DEF72BF7366E00DA55F5 /* ApplyButton.swift */; };
+		02C6DEFA2BF744EF00DA55F5 /* ViewShadow+Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C6DEF92BF744EF00DA55F5 /* ViewShadow+Modifier.swift */; };
+		02C8E6BA2BE3CB1600CE7430 /* Namaz_VakitleriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8E6B92BE3CB1600CE7430 /* Namaz_VakitleriApp.swift */; };
+		02C8E6BC2BE3CB1600CE7430 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8E6BB2BE3CB1600CE7430 /* SplashView.swift */; };
+		02C8E6BE2BE3CB1700CE7430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C8E6BD2BE3CB1700CE7430 /* Assets.xcassets */; };
+		02C8E6C12BE3CB1700CE7430 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C8E6C02BE3CB1700CE7430 /* Preview Assets.xcassets */; };
+		02C8E6DB2BE3CCBE00CE7430 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02C8E6DA2BE3CCBE00CE7430 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020B009D2BE4BC2300B8D87D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		020B009F2BE4BC3A00B8D87D /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		020B00A22BE4BCC900B8D87D /* PrayerTimeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeTabView.swift; sourceTree = "<group>"; };
+		020B00A52BE4BD2E00B8D87D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		020B00A82BE4BD5B00B8D87D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		020B00AB2BE4BDA300B8D87D /* SelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
+		020B00AE2BE4BDEC00B8D87D /* TimeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableView.swift; sourceTree = "<group>"; };
+		020B00B12BE4BE0B00B8D87D /* ZikirmatikView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZikirmatikView.swift; sourceTree = "<group>"; };
+		0246EF772BE8B353002E0AF4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0246EF7B2BE8B40C002E0AF4 /* RemoteClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteClass.swift; sourceTree = "<group>"; };
+		0246EF7D2BE8B581002E0AF4 /* Namaz-Vakitleri-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Namaz-Vakitleri-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0246EF7F2BE8ECE1002E0AF4 /* NotificationControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationControlView.swift; sourceTree = "<group>"; };
+		025BA8762BFC7F780078C017 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		025BA8782BFC7FC30078C017 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		025BA87A2BFC7FDA0078C017 /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
+		025BA87C2BFC7FF10078C017 /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		025BA87E2BFC80A20078C017 /* SelectListEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectListEndPoint.swift; sourceTree = "<group>"; };
+		025BA8822BFC86BF0078C017 /* TimeTableEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableEndPoint.swift; sourceTree = "<group>"; };
+		025BA8842BFC90400078C017 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		0272DEB62BEA267D0055421C /* SelectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectListView.swift; sourceTree = "<group>"; };
+		0272DEB92BEA2E4C0055421C /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		0272DEBC2BEA2EB10055421C /* SearchTF+Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchTF+Modifier.swift"; sourceTree = "<group>"; };
+		0272DEC22BEB73210055421C /* SelectZikirView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectZikirView.swift; sourceTree = "<group>"; };
+		0272DEC42BEB73510055421C /* SavedZikirView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedZikirView.swift; sourceTree = "<group>"; };
+		0272DEC62BEB735C0055421C /* CreateZikirView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateZikirView.swift; sourceTree = "<group>"; };
+		0272DECA2BEB8AB00055421C /* SelectZikirDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectZikirDetailView.swift; sourceTree = "<group>"; };
+		02C6DEF72BF7366E00DA55F5 /* ApplyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyButton.swift; sourceTree = "<group>"; };
+		02C6DEF92BF744EF00DA55F5 /* ViewShadow+Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewShadow+Modifier.swift"; sourceTree = "<group>"; };
+		02C8E6B62BE3CB1600CE7430 /* Namaz Vakitleri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Namaz Vakitleri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C8E6B92BE3CB1600CE7430 /* Namaz_VakitleriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namaz_VakitleriApp.swift; sourceTree = "<group>"; };
+		02C8E6BB2BE3CB1600CE7430 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		02C8E6BD2BE3CB1700CE7430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02C8E6C02BE3CB1700CE7430 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02C8E6DA2BE3CCBE00CE7430 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02C8E6B32BE3CB1600CE7430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020B009A2BE4B95100B8D87D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				02C8E6B92BE3CB1600CE7430 /* Namaz_VakitleriApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		020B009B2BE4BBF900B8D87D /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0246EF812BE8F689002E0AF4 /* SelectListView */,
+				0246EF7E2BE8ECC0002E0AF4 /* Notification */,
+				020B00AA2BE4BD8700B8D87D /* Selection */,
+				020B00A72BE4BD4D00B8D87D /* Settings */,
+				020B00B02BE4BDFA00B8D87D /* Zikirmatik */,
+				020B00AD2BE4BDDE00B8D87D /* TimeTable */,
+				020B00A42BE4BD0B00B8D87D /* Home */,
+				020B00A12BE4BCAA00B8D87D /* PrayerTimeTabView */,
+				0272DEBE2BEB56D40055421C /* Splash */,
+				020B009C2BE4BC0D00B8D87D /* Main */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		020B009C2BE4BC0D00B8D87D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				020B009D2BE4BC2300B8D87D /* MainView.swift */,
+				020B009F2BE4BC3A00B8D87D /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		020B00A12BE4BCAA00B8D87D /* PrayerTimeTabView */ = {
+			isa = PBXGroup;
+			children = (
+				020B00A22BE4BCC900B8D87D /* PrayerTimeTabView.swift */,
+			);
+			path = PrayerTimeTabView;
+			sourceTree = "<group>";
+		};
+		020B00A42BE4BD0B00B8D87D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				020B00A52BE4BD2E00B8D87D /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		020B00A72BE4BD4D00B8D87D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				020B00A82BE4BD5B00B8D87D /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		020B00AA2BE4BD8700B8D87D /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				020B00AB2BE4BDA300B8D87D /* SelectView.swift */,
+			);
+			path = Selection;
+			sourceTree = "<group>";
+		};
+		020B00AD2BE4BDDE00B8D87D /* TimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				020B00AE2BE4BDEC00B8D87D /* TimeTableView.swift */,
+				025BA8822BFC86BF0078C017 /* TimeTableEndPoint.swift */,
+			);
+			path = TimeTable;
+			sourceTree = "<group>";
+		};
+		020B00B02BE4BDFA00B8D87D /* Zikirmatik */ = {
+			isa = PBXGroup;
+			children = (
+				020B00B12BE4BE0B00B8D87D /* ZikirmatikView.swift */,
+				0272DEBF2BEB72F60055421C /* SelectZikir */,
+				0272DEC02BEB72FE0055421C /* SavedZikir */,
+				0272DEC12BEB73060055421C /* CreateZikir */,
+			);
+			path = Zikirmatik;
+			sourceTree = "<group>";
+		};
+		0246EF762BE8B343002E0AF4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0246EF772BE8B353002E0AF4 /* NetworkManager.swift */,
+				025BA8762BFC7F780078C017 /* HTTPClient.swift */,
+				025BA8782BFC7FC30078C017 /* Endpoint.swift */,
+				025BA87A2BFC7FDA0078C017 /* RequestMethod.swift */,
+				025BA87C2BFC7FF10078C017 /* RequestError.swift */,
+				025BA8842BFC90400078C017 /* ResponseModel.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0246EF792BE8B3F0002E0AF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0246EF7A2BE8B3FC002E0AF4 /* Image */,
+				02C6DEF72BF7366E00DA55F5 /* ApplyButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0246EF7A2BE8B3FC002E0AF4 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0246EF7B2BE8B40C002E0AF4 /* RemoteClass.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		0246EF7E2BE8ECC0002E0AF4 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				0246EF7F2BE8ECE1002E0AF4 /* NotificationControlView.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		0246EF812BE8F689002E0AF4 /* SelectListView */ = {
+			isa = PBXGroup;
+			children = (
+				0272DEB62BEA267D0055421C /* SelectListView.swift */,
+				025BA87E2BFC80A20078C017 /* SelectListEndPoint.swift */,
+			);
+			path = SelectListView;
+			sourceTree = "<group>";
+		};
+		0272DEB82BEA2E3D0055421C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0272DEB92BEA2E4C0055421C /* View+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0272DEBB2BEA2E950055421C /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				0272DEBC2BEA2EB10055421C /* SearchTF+Modifier.swift */,
+				02C6DEF92BF744EF00DA55F5 /* ViewShadow+Modifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		0272DEBE2BEB56D40055421C /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				02C8E6BB2BE3CB1600CE7430 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		0272DEBF2BEB72F60055421C /* SelectZikir */ = {
+			isa = PBXGroup;
+			children = (
+				0272DEC22BEB73210055421C /* SelectZikirView.swift */,
+				0272DECA2BEB8AB00055421C /* SelectZikirDetailView.swift */,
+			);
+			path = SelectZikir;
+			sourceTree = "<group>";
+		};
+		0272DEC02BEB72FE0055421C /* SavedZikir */ = {
+			isa = PBXGroup;
+			children = (
+				0272DEC42BEB73510055421C /* SavedZikirView.swift */,
+			);
+			path = SavedZikir;
+			sourceTree = "<group>";
+		};
+		0272DEC12BEB73060055421C /* CreateZikir */ = {
+			isa = PBXGroup;
+			children = (
+				0272DEC62BEB735C0055421C /* CreateZikirView.swift */,
+			);
+			path = CreateZikir;
+			sourceTree = "<group>";
+		};
+		02C8E6AD2BE3CB1600CE7430 = {
+			isa = PBXGroup;
+			children = (
+				02C8E6B82BE3CB1600CE7430 /* Namaz Vakitleri */,
+				02C8E6B72BE3CB1600CE7430 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02C8E6B72BE3CB1600CE7430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02C8E6B62BE3CB1600CE7430 /* Namaz Vakitleri.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02C8E6B82BE3CB1600CE7430 /* Namaz Vakitleri */ = {
+			isa = PBXGroup;
+			children = (
+				0272DEBB2BEA2E950055421C /* Modifier */,
+				0272DEB82BEA2E3D0055421C /* Extension */,
+				0246EF792BE8B3F0002E0AF4 /* Views */,
+				0246EF762BE8B343002E0AF4 /* Network */,
+				020B009B2BE4BBF900B8D87D /* Screen */,
+				020B009A2BE4B95100B8D87D /* App */,
+				0246EF7D2BE8B581002E0AF4 /* Namaz-Vakitleri-Info.plist */,
+				02C8E6DA2BE3CCBE00CE7430 /* GoogleService-Info.plist */,
+				02C8E6BD2BE3CB1700CE7430 /* Assets.xcassets */,
+				02C8E6BF2BE3CB1700CE7430 /* Preview Content */,
+			);
+			path = "Namaz Vakitleri";
+			sourceTree = "<group>";
+		};
+		02C8E6BF2BE3CB1700CE7430 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02C8E6C02BE3CB1700CE7430 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02C8E6B52BE3CB1600CE7430 /* Namaz Vakitleri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C8E6C42BE3CB1700CE7430 /* Build configuration list for PBXNativeTarget "Namaz Vakitleri" */;
+			buildPhases = (
+				02C8E6B22BE3CB1600CE7430 /* Sources */,
+				02C8E6B32BE3CB1600CE7430 /* Frameworks */,
+				02C8E6B42BE3CB1600CE7430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Namaz Vakitleri";
+			packageProductDependencies = (
+			);
+			productName = "Namaz Vakitleri";
+			productReference = 02C8E6B62BE3CB1600CE7430 /* Namaz Vakitleri.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02C8E6AE2BE3CB1600CE7430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					02C8E6B52BE3CB1600CE7430 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 02C8E6B12BE3CB1600CE7430 /* Build configuration list for PBXProject "Namaz Vakitleri" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02C8E6AD2BE3CB1600CE7430;
+			packageReferences = (
+			);
+			productRefGroup = 02C8E6B72BE3CB1600CE7430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02C8E6B52BE3CB1600CE7430 /* Namaz Vakitleri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02C8E6B42BE3CB1600CE7430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C8E6C12BE3CB1700CE7430 /* Preview Assets.xcassets in Resources */,
+				02C8E6BE2BE3CB1700CE7430 /* Assets.xcassets in Resources */,
+				02C8E6DB2BE3CCBE00CE7430 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02C8E6B22BE3CB1600CE7430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020B00A92BE4BD5B00B8D87D /* SettingsView.swift in Sources */,
+				02C6DEFA2BF744EF00DA55F5 /* ViewShadow+Modifier.swift in Sources */,
+				0272DECB2BEB8AB00055421C /* SelectZikirDetailView.swift in Sources */,
+				025BA87B2BFC7FDA0078C017 /* RequestMethod.swift in Sources */,
+				020B00B22BE4BE0B00B8D87D /* ZikirmatikView.swift in Sources */,
+				02C8E6BC2BE3CB1600CE7430 /* SplashView.swift in Sources */,
+				020B009E2BE4BC2300B8D87D /* MainView.swift in Sources */,
+				02C6DEF82BF7366E00DA55F5 /* ApplyButton.swift in Sources */,
+				0272DEC32BEB73210055421C /* SelectZikirView.swift in Sources */,
+				0272DEC72BEB735D0055421C /* CreateZikirView.swift in Sources */,
+				025BA8832BFC86BF0078C017 /* TimeTableEndPoint.swift in Sources */,
+				0246EF802BE8ECE1002E0AF4 /* NotificationControlView.swift in Sources */,
+				025BA8792BFC7FC30078C017 /* Endpoint.swift in Sources */,
+				0246EF782BE8B353002E0AF4 /* NetworkManager.swift in Sources */,
+				02C8E6BA2BE3CB1600CE7430 /* Namaz_VakitleriApp.swift in Sources */,
+				0272DEBA2BEA2E4C0055421C /* View+Extension.swift in Sources */,
+				020B00A62BE4BD2E00B8D87D /* HomeView.swift in Sources */,
+				025BA8852BFC90400078C017 /* ResponseModel.swift in Sources */,
+				0272DEB72BEA267D0055421C /* SelectListView.swift in Sources */,
+				020B00A32BE4BCC900B8D87D /* PrayerTimeTabView.swift in Sources */,
+				020B00AC2BE4BDA300B8D87D /* SelectView.swift in Sources */,
+				0272DEC52BEB73510055421C /* SavedZikirView.swift in Sources */,
+				0272DEBD2BEA2EB10055421C /* SearchTF+Modifier.swift in Sources */,
+				020B00A02BE4BC3A00B8D87D /* MainViewModel.swift in Sources */,
+				025BA87D2BFC7FF10078C017 /* RequestError.swift in Sources */,
+				025BA8772BFC7F780078C017 /* HTTPClient.swift in Sources */,
+				025BA87F2BFC80A20078C017 /* SelectListEndPoint.swift in Sources */,
+				0246EF7C2BE8B40C002E0AF4 /* RemoteClass.swift in Sources */,
+				020B00AF2BE4BDEC00B8D87D /* TimeTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02C8E6C22BE3CB1700CE7430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02C8E6C32BE3CB1700CE7430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02C8E6C52BE3CB1700CE7430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Namaz Vakitleri/Preview Content\"";
+				DEVELOPMENT_TEAM = H45HF84T2B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Namaz-Vakitleri-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Namaz Vakitleri";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifloop.shaPrayerTime.Namaz-Vakitleri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02C8E6C62BE3CB1700CE7430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Namaz Vakitleri/Preview Content\"";
+				DEVELOPMENT_TEAM = H45HF84T2B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Namaz-Vakitleri-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Namaz Vakitleri";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifloop.shaPrayerTime.Namaz-Vakitleri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C8E6B12BE3CB1600CE7430 /* Build configuration list for PBXProject "Namaz Vakitleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C8E6C22BE3CB1700CE7430 /* Debug */,
+				02C8E6C32BE3CB1700CE7430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C8E6C42BE3CB1700CE7430 /* Build configuration list for PBXNativeTarget "Namaz Vakitleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C8E6C52BE3CB1700CE7430 /* Debug */,
+				02C8E6C62BE3CB1700CE7430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02C8E6AE2BE3CB1600CE7430 /* Project object */;
+}
